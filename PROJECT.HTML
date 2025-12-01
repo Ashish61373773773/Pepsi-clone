@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pepsi Responsive Landing Page Website</title>
+    <link rel="stylesheet" href="PROJECT.CSS">
+</head>
+
+<body>
+
+    <section class="sec">
+        <header>
+            <a href="#"><img src="ashishimg4.png" class="logo" alt="Pepsi Logo"></a>
+
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What <br><span>I Like</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, nisi ducimus quos harum nostrum,
+                    sit voluptate temporibus aut eos quo commodi.</p>
+                <a href="#">View All Products</a>
+            </div>
+
+            <div class="imgBox">
+                <img src="ashishimg3.png" class="pepsi" alt="Pepsi Bottle">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="ashishimg3.png" onclick="imgSlider('ashishimg3.png'); changeBgColor('#0062be')" alt="Pepsi">
+            </li>
+
+            <li><img src="ashishimg2.png" onclick="imgSlider('ashishimg2.png'); changeBgColor('#e60c2c')"
+                    alt="Pepsi Cola"></li>
+
+            <li><img src="ashishimg1.png" onclick="imgSlider('ashishimg1.png'); changeBgColor('#1e1e1e')"
+                    alt="Pepsi Zero"></li>
+            >
+        </ul>
+
+        <ul class="sci">
+            <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"
+                        width="50"></a></li>
+            <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"
+                        width="50"></a></li>
+            <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"
+                        width="50"></a></li>
+            >
+        </ul>
+
+    </section>
+
+    <script src="PROJECT.JS"></script>
+</body>
+
+</html>
